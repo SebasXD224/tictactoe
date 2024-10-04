@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en Raya</title>
+    <link rel="shortcut icon" href="assets/gato_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h1>TicTacToe</h1>
+            <div>
+                <button id="easy" class="mode-btn">Fácil</button>
+                <button id="hard" class="mode-btn">Difícil</button>
+            </div>
+            <button id="start-game" class="start-btn">Comenzar</button>
+        </div>
+
+        <div class="game" id="game-board" style="display: none;">
+            <div class="board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+            <button id="restart-game" class="restart-btn" style="display: none;">Volver a jugar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
